@@ -69,25 +69,40 @@ body {
 	align-items: center;
 	width: 100%;
 	min-height: 100vh;
+	background: url('./imgs/Home.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .about {
+	margin-top: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	min-height: 100vh;
+	background: url('./imgs/About.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 .features {
+	margin-top: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 80vh;
+	flex-direction: column;
+}
+.features h1 {
+	padding: 20px 0 50px 0;
+	font-size: 3rem;
 }
 
-.features .col {
-	padding: 100px;
+.features .col .c {
+	padding: 50px;
 	box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.05), 4px -2px 5px rgba(226, 226, 226, 0.2);
 	border-radius: 5px;
 	display: flex;
@@ -97,4 +112,16 @@ body {
 
 .features .col div {
 	padding: 10px;
+}
+.detail {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: url('./imgs/Feature.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }

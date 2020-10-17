@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: .8;
+}
+.intro .intro-text .text {
+	color: rgb(230, 230, 230);
+	font-size: 2.5rem;
+}
+
+.intro2 {
+	background-color: rgb(255, 255, 255);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(100%);
+	z-index: 1;
+}
+.intro2 .intro-text .text {
+	color: rgb(46, 46, 46);
+	font-size: 2.5rem;
+}
+
+.hide {
+	background-color: black;
+	overflow: hidden;
+}
+
+.hide span {
+	display: inline-block;
+	transform: translateY(100%);
+}
+.hide2 {
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+}
+
+.hide2 span {
+	display: inline-block;
+	transform: translateY(100%);
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+}
+.features {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.features .col {
+	padding: 100px;
+	box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.05), 4px -2px 5px rgba(226, 226, 226, 0.2);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.features .col div {
+	padding: 10px;
+}

@@ -2,11 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
+}
+nav {
+	z-index: 0;
 }
 
 .intro {
